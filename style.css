@@ -283,5 +283,41 @@ font-weight: 600;
   border-radius: 75%;
 }
 
+.darken{
+  color: black;
+}
 
 
+.img-container-dylson {
+  position: relative;
+  /* overflow: hidden; */
+  width: 300px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+}
+
+.bw-image,
+.color-image {
+  width: 100%;
+  border-radius: 1rem;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out; /* Add a smooth transition for the opacity property */
+}
+
+.bw-image {
+  filter: grayscale(100%);
+}
+
+.img-container-dylson:hover .bw-image {
+  opacity: 0; /* Hide the black and white image on hover */
+}
+
+.color-image {
+  opacity: 0; /* Initially hide the color image */
+}
+
+.img-container-dylson:hover .color-image {
+  opacity: 1; /* Show the color image on hover */
+}
