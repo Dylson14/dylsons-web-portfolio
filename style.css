@@ -10,7 +10,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  font-family: "Public Sans", sans-serif;
 }
 
 html {
@@ -181,7 +180,7 @@ section {
 }
 
 .section__text p {
-font-weight: 600px;
+font-weight: 600;
 }
 
 .section__text__p1{
@@ -210,6 +209,11 @@ font-weight: 600px;
 .icon {
   cursor: pointer;
   height: 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2)
 }
 
 /* BUTTONS */
@@ -258,3 +262,26 @@ font-weight: 600px;
 .btn-container {
   gap: 1rem;
 }
+
+.faded{
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+      opacity: 1; /* End with opacity 1 */
+  }
+}
+
+/* PROFILE */
+.profile__pic{
+  box-shadow: 10px 8px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 75%;
+}
+
+
+
