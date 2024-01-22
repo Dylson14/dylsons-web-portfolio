@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>Dylson's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
@@ -50,15 +50,7 @@
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title faded">
-          <!-- <span>D</span>
-          <span>y</span>
-          <span>l</span>
-          <span>s</span>
-          <span>o</span>
-          <span>n</span> -->
-          Dylson Oliveira
-        </h1>
+        <h1 class="title faded">Dylson Oliveira</h1>
         <p class="section__text__p2">FullStack Web Developer</p>
         <div class="btn-container">
           <button
@@ -74,18 +66,20 @@
         </div>
 
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/in/dylsonoliveira/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/Dylson14'"
-          />
+          <a href="https://linkedin.com/in/dylsonoliveira/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          <a href="https://github.com/Dylson14" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
         </div>
       </div>
     </section>
@@ -163,33 +157,83 @@
         <div class="about-containers">
           <div class="details-container">
             <h2 class="experience-sub-title">
-              FullStack Web Development Teaching Assistant
+              Full-Stack Web Development Teaching Assistant
             </h2>
+            <img src="./assets/EdX-logo.png" alt="" class="experience-pic" />
+            <br />
+            <br />
+            <p class="section__text__p1">Jun.2022-Present</p>
+            <br />
+            <hr />
             <br />
             <div class="article-container">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
-              inventore esse neque, consectetur alias voluptates modi sequi ipsa
-              voluptas at molestias fuga a distinctio. Repellat enim esse
-              ratione? Fugit nostrum nulla tempore exercitationem repellendus
-              minima adipisci quod maxime laboriosam aspernatur, magnam sequi
-              suscipit! Aperiam ipsam aliquid quasi optio, quas sunt!
+              In this role, I deliver edx's full-stack curriculum, teaching
+              students how to become a full-stack developer in 6 months. I teach
+              javascript at it's core, alongside modern techstack's like
+              M.E.R.N.
+              <br />
+              <br />
+              The role requires me to break down complex coding concepts, and
+              simplify them to digestible bits, which I then communicate to the
+              students.
+              <br />
+              <br />
+              I conduct thorough code reviews of my students, offering
+              constructive feedback to enhance their coding skills, and teach
+              students how to adhere to coding best practices.
+              <br />
+              <br />
+              The role requires patience, and excellent communication. This way,
+              I can best help the students reach their career goals into the
+              beautiful, yet demanding, world of web development.
             </div>
+            <br />
+            <br />
+            <a
+              href="https://www.edx.org/"
+              target="_blank"
+              class="btn btn-color-2 project-btn"
+              >View Employer Website</a
+            >
+            <br />
+            <br />
           </div>
 
           <div class="details-container">
             <h2 class="experience-sub-title">
-              FrontEnd Engineer at Century Tech
+              Front-End Engineer at Century Tech
             </h2>
+            <img
+              src="./assets/century-tech-logo.png"
+              alt=""
+              class="experience-pic-century"
+            />
+            <p class="section__text__p1">Feb.2022-Jul.2022</p>
+            <br />
+            <hr />
             <br />
             <div class="article-container">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-              corrupti commodi quae nulla suscipit deserunt pariatur eos iusto,
-              dolore beatae quibusdam, nostrum illo dolorum sed fugiat corporis
-              libero accusantium aliquam. Cupiditate veritatis praesentium amet
-              nobis pariatur debitis odit, id nemo laboriosam iste? Eligendi
-              magni mollitia quos illo, iure a esse culpa consequatur magnam
-              fugit enim? Saepe quas maiores omnis sit.
+              During my time at Century, I was tasked with re-writing Polymer.js code into React.js code, to modernize the web-app codebase.
+              <br />
+              <br />
+              The role also required me to fix existing bugs in the codebase, removing tickets from the backlog of outstanding bugs.
+              <br />
+              <br />
+              I also initiated a step-by-step junior developer guide, to better document the onboarding process for new developers joining the front-end team
+              <br />
+              <br />
+              The biggest takeaway from this role, was learning the ability to work independently. To keep calm and research online documentation and forums to help me develop my own solution to tickets.
             </div>
+            <br />
+            <br />
+            <a
+              href="https://www.century.tech/"
+              target="_blank"
+              class="btn btn-color-2 project-btn"
+              >View Employer Website</a
+            >
+            <br />
+            <br />
           </div>
         </div>
       </div>
@@ -429,18 +473,18 @@
             </p>
             <br />
             <div class="btn-container">
-              <button
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Github</a
               >
-                Github
-              </button>
-              <button
+              <a
+                href="www.google.com"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Live Demo</a
               >
-                Live Demo
-              </button>
             </div>
           </div>
 
@@ -461,18 +505,18 @@
             </p>
             <br />
             <div class="btn-container">
-              <button
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Github</a
               >
-                Github
-              </button>
-              <button
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Live Demo</a
               >
-                Live Demo
-              </button>
             </div>
           </div>
 
@@ -493,18 +537,18 @@
             </p>
             <br />
             <div class="btn-container">
-              <button
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Github</a
               >
-                Github
-              </button>
-              <button
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Dylson14'"
+                >Live Demo</a
               >
-                Live Demo
-              </button>
             </div>
           </div>
         </div>
@@ -522,7 +566,7 @@
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <a href="mailto:dylsonbusiness@gmail.com">
+          <a href="mailto:dylsonbusiness@gmail.com" target="_blank">
             <img
               src="./assets/email.png"
               alt="email icon"
@@ -530,22 +574,26 @@
             />
           </a>
           <p>
-            <a href="mailto:dylsonbusiness@gmail.com"
+            <a href="mailto:dylsonbusiness@gmail.com" target="_blank"
               >dylsonbusiness@gmail.com</a
             >
           </p>
         </div>
 
         <div class="contact-info-container">
-          <a href="https://www.linkedin.com/in/dylsonoliveira/">
+          <a href="https://www.linkedin.com/in/dylsonoliveira/" target="_blank">
             <img
-            src="./assets/linkedin.png"
-            alt="Linkedin icon"
-            class="icon contact-info"
-          />
+              src="./assets/linkedin.png"
+              alt="Linkedin icon"
+              class="icon contact-info"
+            />
           </a>
           <p>
-            <a href="https://www.linkedin.com/in/dylsonoliveira/">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/dylsonoliveira/"
+              target="_blank"
+              >LinkedIn</a
+            >
           </p>
         </div>
       </div>

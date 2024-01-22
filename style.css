@@ -227,12 +227,17 @@ section {
   gap: 1rem;
 }
 
+a.btn{
+  text-decoration: none;
+}
+
 .btn {
   font-weight: 600;
   transition: 1rem;
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  text-decoration: none;
 }
 
 .btn-color-1,
@@ -401,6 +406,7 @@ section {
 
 #skills {
   position: relative;
+  margin-top: 5rem;
 }
 
 .experience-sub-title {
@@ -498,4 +504,15 @@ footer {
   height: 26vh;
   margin: 0 1rem;
   text-align: center;
+}
+
+/* EXPERIENCE PICTURES */
+
+.experience-pic{
+  height: 7vh;
+  width: fit-content;
+}
+.experience-pic-century{
+  height: 12vh;
+  width: fit-content;
 }
