@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.mobile-dylson{
+  display: none;
+}
+
 p {
   color: rgb(85, 85, 85);
 }
