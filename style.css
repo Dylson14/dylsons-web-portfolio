@@ -328,7 +328,7 @@ font-weight: 600;
   bottom: 2.5rem;
 }
 
-.details-container {
+.details-containers {
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -336,6 +336,7 @@ font-weight: 600;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163,163,163);
   text-align: center;
+  align-items: center;
 }
 
 .section-container {
@@ -382,3 +383,44 @@ font-weight: 600;
   opacity: 1; 
 }
 /* ************************* */
+
+.icon.no-grow{
+  transition: none;
+  transform: none;
+  cursor: auto;
+}
+
+.no-pointer{
+  cursor: auto;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+  position: relative;
+}
+
+.experience-sub-title{
+  color: rgb(85,85,85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container{
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-container{
+  display: block;
+  text-align: center;
+}
+
+
