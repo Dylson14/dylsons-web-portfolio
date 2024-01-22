@@ -433,6 +433,7 @@ section {
 /* PROJECTS SECTION */
 #projects {
   position: relative;
+  margin-top: 10rem;
 }
 
 .color-container {
