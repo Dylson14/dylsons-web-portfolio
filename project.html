@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dylsons Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Dylson Oliveira</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about" ;>About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Dylson Oliveira</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <div id="all-projects-container">
+      <button onclick="backToHome()" id="back-to-home" class="btn btn-color-2">
+        Back To Main Portfolio
+      </button>
+    </div>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Fictional-University-2-min.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Fictional University
+            </h2>
+            <p>
+              I created a dynamic Wordpress custom theme for a fictional
+              university.
+              <br />
+              <br />
+              I learned then fundamentals of setting up a new theme and learning
+              how to convert static HTML into a dynamic Wordpress theme.
+              <br />
+              <br />
+              I created Custom Post Types and Custom fields, such as Campuses,
+              Professors, Programs and Events. In addition, I created
+              relationships between the post types, such as determining which
+              professors belonged to which program and vice-versa.
+              <br />
+              <br />
+              I utilised JavaScript to implement a live search feature. I
+              leveraged the Wordpress REST API, and let visitors sign up for a
+              basic account on the website.
+            </p>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <h3>Technologies Used</h3>
+              <img
+                src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"
+                alt="html icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=PHP&logoColor=white"
+                alt="php icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"
+                alt="css icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"
+                alt="javascript icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/WordPress-21759B.svg?style=for-the-badge&logo=WordPress&logoColor=white"
+                alt="wordpress icon"
+                class="icon no-pointer"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <a
+                href="https://github.com/Dylson14/fictional-university"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Github</a
+              >
+              <a
+                href="www.google.com"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              PHP Signup and Login System
+            </h2>
+            <p>
+              Using PHP, I was able to develop a user authenticator system.
+              Throughout the project, I learned and implemented error handling.
+              <br />
+              <br />
+              I set up a MySQL database to contain sensitive user data and
+              utilised PHP to communicate to the database.
+              <br />
+              <br />
+              The project architecture was done using the MVC pattern, to follow
+              modern coding best practices.
+              <br />
+              <br />
+              I also implemented error messages to show to the user, to better
+              improve the user experience of this project!
+            </p>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <h3>Technologies Used</h3>
+              <img
+                src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"
+                alt="html icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=PHP&logoColor=white"
+                alt="php icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"
+                alt="css icon"
+                class="icon no-pointer"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <a
+                href="https://github.com/Dylson14/php-signup-login-system"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Github</a
+              >
+              <a
+                href="https://github.com/Dylson14"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/web-hero-min.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Web Design Studio Website
+            </h2>
+            <p>
+              Using Elementor Page Builder and several additional plugins, I
+              developed a fictional Web Design Studio website. This was a
+              personal project for me to develop my page building skills, as
+              well as gain an understanding how I would hand off the project to
+              a prospective client.
+              <br />
+              <br />
+              The project contains several features including a dynamic project
+              portfolio, particle animation in the hero, client testimonials
+              carousel slider, Lottie animations, counter numbers to showcase
+              projects worked on, a meet-the-team section featuring the team
+              members with respective links to their socials, a working contact
+              form connected to an active email host.
+            </p>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <h3>Technologies Used</h3>
+              <img
+                src="https://img.shields.io/badge/Elementor-92003B.svg?style=for-the-badge&logo=Elementor&logoColor=white"
+                alt="elementor icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/WordPress-21759B.svg?style=for-the-badge&logo=WordPress&logoColor=white"
+                alt="wordpress icon"
+                class="icon no-pointer"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <a
+                href="https://test.dylsonoliveira.com/"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/pdj.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              InfoCraft
+            </h2>
+            <p>
+                In a team of three we developed an application that brings users together
+                to compare stats and achievements within the Minecraft community.
+              <br />
+              <br />
+              Used three server-side API's to fetch different sources of data and display
+them to the user.
+              <br />
+              <br />
+              As a team we created a polished UI that's mobile-responsive, as well as
+              utilise client-side storage to store persistent data.
+            </p>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <h3>Technologies Used</h3>
+              <img
+                src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"
+                alt="html icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"
+                alt="css icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"
+                alt="javascript icon"
+                class="icon no-pointer"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <a
+                href="https://github.com/jjcourtney/PDJ-InfoCraft/ "
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Github</a
+              >
+              <a
+                href="https://jjcourtney.github.io/PDJ-InfoCraft/"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/cecilia.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Arte Cabeleleira
+            </h2>
+            <p>
+              Using Wordpress, Elementor and Woocommerse, I developed a live website to promote my clients hairshop salon in the south of Portugal
+              <br />
+              <br />
+              I set up a mobile-responsive, dynamic website, feauturing several pages as well as a working Google Maps for customers to be able to locate her salon.
+              <br />
+              <br />
+              The project also invovled adding an e-commerce shop using WooCommerce.
+            </p>
+            <br />
+            <hr />
+            <br />
+            <div>
+              <h3>Technologies Used</h3>
+              <img
+                src="https://img.shields.io/badge/WordPress-21759B.svg?style=for-the-badge&logo=WordPress&logoColor=white"
+                alt="wordpress icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/Elementor-92003B.svg?style=for-the-badge&logo=Elementor&logoColor=white"
+                alt="elementor icon"
+                class="icon no-pointer"
+              />
+              <img
+                src="https://img.shields.io/badge/WooCommerce-96588A.svg?style=for-the-badge&logo=WooCommerce&logoColor=white"
+                alt="woocommerce icon"
+                class="icon no-pointer"
+              />
+            </div>
+            <br />
+            <div class="btn-container">
+              <a
+                href="https://cecilialanga.com/"
+                target="_blank"
+                class="btn btn-color-2 project-btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

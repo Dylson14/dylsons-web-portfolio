@@ -440,6 +440,7 @@ a.btn{
 #projects {
   position: relative;
   margin-top: 10rem;
+  overflow: visible;
 }
 
 .color-container {
@@ -470,6 +471,7 @@ a.btn{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 20rem;
 }
 
 .contact-info-upper-container {
@@ -515,4 +517,17 @@ footer {
 .experience-pic-century{
   height: 12vh;
   width: fit-content;
+}
+
+/* go to portfolio button */
+.project-title{
+  text-align: center;
+}
+
+#to-project-page{
+  text-align: center;
+}
+
+#all-projects-container{
+  text-align: center;
 }
