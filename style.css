@@ -512,11 +512,11 @@ footer {
 
 .experience-pic{
   height: 7vh;
-  width: fit-content;
+/*   width: fit-content; */
 }
 .experience-pic-century{
   height: 12vh;
-  width: fit-content;
+ /*  width: fit-content; */
 }
 
 /* go to portfolio button */
