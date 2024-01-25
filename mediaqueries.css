@@ -115,6 +115,11 @@
       height: 46vw;
       justify-content: center;
     }
+    .section__pic-container-custom {
+      width: auto;
+      height:35vw;
+      justify-content: center;
+    }
     .section__text__p2 {
       font-size: 1.25rem;
     }
