@@ -406,7 +406,7 @@ a.btn{
 
 #skills {
   position: relative;
-  margin-top: 5rem;
+  margin-top: 25rem;
 }
 
 .experience-sub-title {
@@ -471,7 +471,7 @@ a.btn{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 20rem;
+  margin-top: 40rem;
 }
 
 .contact-info-upper-container {
